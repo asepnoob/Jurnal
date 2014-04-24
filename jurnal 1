@@ -16,9 +16,10 @@ public class Jurnal {
    Scanner sc = new Scanner(System.in);
        System.out.print("Input junlah digit: ");
        n=sc.nextInt();
-       for (int i=1; i<=n;i++){
-           System.out.print(f.hitungFibonacci(i)+" ");
+       for (int i=n; i>0;i--){
+          System.out.print(f.hitungFibonacci(i)+" ");
        }
+       
 }
     
 }
